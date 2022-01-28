@@ -56,7 +56,7 @@ a{
     padding:10px;
 }
 .item-sub:hover{
-    background-color: yellow;
+    background-color: #ffc107 ;
 }
 
 
@@ -65,13 +65,16 @@ a{
     position: relative;  
    
 }
+.content-slide{
+    height: 50vh;
+}
 #carouselExampleControls{
    position: relative;
  
 }
-.image-carousel {
+/* .image-carousel {
    height:70%;
-}
+} */
 
 h1.carouse-title{
     color: #ffc107 !important;
@@ -80,7 +83,7 @@ h1.carouse-title{
 }
 .carousel-content{
     position: absolute;
-    top:40%;
+    top:25%;
    left: 41%;
     
 }
@@ -93,7 +96,7 @@ h1.carouse-title{
     position: relative;
 }
 .section-3{
-    background-color: rgb(240, 240, 24);
+    background-color: #ffc107 ;
 }
 .owl-prev{
 
@@ -210,7 +213,7 @@ button.slick-prev {
    
     padding: 75px 0 7px 0;
     margin: 0px;
-    background-color: #c2adad;
+    background-color: #ebe1e1;
     
 }
 .icon-footer{
@@ -311,4 +314,88 @@ button.slick-prev {
  .back-to-top.hien-ra{
     visibility: visible;
     opacity: 1;
+ }
+
+ /* css tin tức  */
+ .back-img{
+     position: relative;
+ }
+ .background-title{
+    position: absolute;
+    background: rgba(18,16,47,0.60) none repeat scroll 0 0;
+    
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+ }
+ .text-title{
+     color:#fff !important;
+     top: 50%;
+     margin-top:6%;
+     text-transform: uppercase;
+ }
+
+
+ /* repomsive  */
+ @media only screen and (max-width:739px){
+     .logo{
+         width: 35%;
+     }
+     .menu-main{
+         width: 65%;
+         padding-top: 5px;
+         
+     }
+     .navbar-toggler{
+         justify-content: end;
+     }
+    .carousel-content .carouse-title{
+        font-size: 2rem;
+
+    }
+
+    .content{
+        height: 35vh;
+    }
+    .content-slide{
+        height: 100%;
+    }
+    .carousel-content{
+        position: absolute;
+        top:30%;
+       left: 23%;
+        
+    }
+    .btn-carousel{
+        margin-left:30%;
+        font-weight: 600;
+    }
+    .content-col2 h2{
+        margin-top: 20px;
+    }
+    .btn-section4{
+  
+        margin-left: 33% !important;
+    }
+  .ytp-cued-thumbnail-overlay-image {
+        width: 360 !important;
+        height: 250 !important;
+    }
+
+    .icon-footer {
+        width: 100%;
+    }
+    .contact-footer {
+        width:100%;
+    }
+    .coryright {
+        width: 100%;
+    }
+    .privacy {
+       display: none;
+    }
+    .coryright-content {
+       text-align: center;
+    }
  }

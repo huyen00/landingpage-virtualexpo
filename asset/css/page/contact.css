@@ -56,8 +56,28 @@ a{
     padding:10px;
 }
 .item-sub:hover{
-    background-color: yellow;
+    background-color:#ffc107 ;
 }
+/* css tin tức  */
+.back-img{
+    position: relative;
+}
+.background-title{
+   position: absolute;
+   background: rgb(18 16 47 / 37%) none repeat scroll 0 0;
+   
+   top: 0;
+   width: 100%;
+   left: 0;
+   height: 100%;
+}
+.text-title{
+    color:#fff !important;
+    top: 50%;
+    margin-top:6%;
+    text-transform: uppercase;
+}
+
 
 /* contact */
 .title-contact{

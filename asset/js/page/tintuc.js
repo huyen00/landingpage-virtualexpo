@@ -1,11 +1,9 @@
-
-  $(document).ready(function(){
+$(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
         nav:true,
-        autoplay:true,
-    autoplayTimeout:1000,
+       
         responsive:{
             0:{
                 items:1
@@ -14,23 +12,13 @@
                 items:3
             },
             1000:{
-                items:6
+                items:4
             }
         }
     })
   })
 
-
-  $(document).ready(function(){
-    $('.multiple-items').slick({
-        infinite: true,
-        slidesToShow: 4,
-        mobileFirst: true,
-        slidesToScroll: 4
-    });
-})
-
- //quay lại đầu trang
+  //quay lại đầu trang
  $(document).ready(function() {
     $(window).scroll(function(event) {
        var pos_body = $('html,body').scrollTop();

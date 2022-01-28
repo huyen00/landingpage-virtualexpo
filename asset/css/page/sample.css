@@ -56,7 +56,27 @@ a{
     padding:10px;
 }
 .item-sub:hover{
-    background-color: yellow;
+    background-color: #ffc107 ;
+}
+
+/* css tin tức  */
+.back-img{
+    position: relative;
+}
+.background-title{
+   position: absolute;
+   background: rgb(18 16 47 / 37%) none repeat scroll 0 0;
+   
+   top: 0;
+   width: 100%;
+   left: 0;
+   height: 100%;
+}
+.text-title{
+    color:#fff !important;
+    top: 50%;
+    margin-top:6%;
+    font-weight: 800;
 }
 
 
@@ -153,7 +173,7 @@ a{
    
     padding: 75px 0 7px 0;
     margin: 0px;
-    background-color: #c2adad;
+    background-color: #ebe1e1;
     
 }
 .icon-footer{
@@ -253,3 +273,46 @@ a{
     visibility: visible;
     opacity: 1;
  }
+
+ /* repomsive  */
+ @media only screen and (max-width:739px){
+    .logo{
+        width: 35%;
+    }
+    .menu-main{
+        width: 65%;
+        padding-top: 5px;
+        
+    }
+    .navbar-toggler{
+        justify-content: end;
+    }
+    .back-img{
+        height:30vh;
+    }
+    .back-img img{
+        height:100%;
+    }
+    .text-title {
+        color: #fff !important;
+        
+        margin-top: 17%;
+        font-weight: 600;
+    }
+
+   .icon-footer {
+       width: 100%;
+   }
+   .contact-footer {
+       width:100%;
+   }
+   .coryright {
+       width: 100%;
+   }
+   .privacy {
+      display: none;
+   }
+   .coryright-content {
+      text-align: center;
+   }
+}
