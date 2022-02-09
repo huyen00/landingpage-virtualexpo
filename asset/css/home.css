@@ -72,9 +72,7 @@ a{
    position: relative;
  
 }
-/* .image-carousel {
-   height:70%;
-} */
+
 
 h1.carouse-title{
     color: #ffc107 !important;
@@ -94,6 +92,7 @@ h1.carouse-title{
 
 .section-2{
     position: relative;
+    padding-top: 3rem;
 }
 .section-3{
     background-color: #ffc107 ;
@@ -175,8 +174,11 @@ button.owl-next{
   
     margin-left: 470px !important;
 }
-.multiple-items{
-    width: 100%;
+.banner-5{
+    padding:3rem;
+}
+.sec-5{
+    padding: 3rem !important;
 }
 .item-5 img{
     width:100%;
@@ -339,6 +341,12 @@ button.slick-prev {
 
  /* repomsive  */
  @media only screen and (max-width:739px){
+    #quaylai{
+        display: none;
+    }
+     h2{
+         font-size: 1.5rem !important;
+     }
      .logo{
          width: 35%;
      }
@@ -378,16 +386,60 @@ button.slick-prev {
   
         margin-left: 33% !important;
     }
+    .sec-col{
+        width: 100%;
+    }
+    .title-section4 p{
+        width: 300px;
+    }
+    #video-viewport{
+        width: 100%;
+    }
+    .video-iframe{
+        width: 100%;
+    }
   .ytp-cued-thumbnail-overlay-image {
         width: 360 !important;
         height: 250 !important;
     }
 
+    /* sec-5 */
+    h4{
+        font-size: 1.2rem !important;
+    }
+    .banner-5{
+        padding: 1rem;
+    }
+    .sec-5{
+        padding: 2rem !important;
+    }
+    button.owl-next {
+        right: -45px !important;
+    }
+    /* sec-6 */
+    .banner-6{
+        padding:1.8rem;
+    }
+    .list-logo{
+        padding-top: 1rem;
+    }
+   .list-logo h5{
+       font-weight: 800;
+       font-size: 1.2rem;
+   }
+    /* foorter */
     .icon-footer {
         width: 100%;
     }
     .contact-footer {
         width:100%;
+    }
+    .contact-item {
+        padding: 0;
+    }
+    .contact-link{
+        font-size: 0.8rem;
+        padding-right:16px;
     }
     .coryright {
         width: 100%;
@@ -398,4 +450,148 @@ button.slick-prev {
     .coryright-content {
        text-align: center;
     }
+
+
+    /* css TIN TỨC */
+      /* background */
+   .back-img{
+    height:25vh;
+    }
+    .back-img img{
+        height:100%;
+    }
+    .text-title{
+    margin-top: 4rem;
+    }
+ }
+ @media only screen and (min-width:740px) and (max-width:1023px){
+    .logo{
+        width: 30%;
+    }
+    .menu-main{
+        width: 70%;
+        padding-top: 5px;
+        
+    }
+    .navbar-toggler{
+        justify-content: end;
+        margin-top:1.4rem;
+    }
+   .carousel-content .carouse-title{
+       font-size: 3rem;
+   }
+   .carousel-content{
+        top: 25%;
+        left: 30%;
+   }
+   /* sec-2 */
+   .section-2{
+       padding-top: 0 !important;
+   }
+
+   .sec-col{
+     width: 100%;
+    }
+    .title-section4 p{
+        width: 300px;
+    }
+    .btn-section4{
+  
+        margin-left: 100px !important;
+    }
+    #video-viewport{
+        width: 100%;
+    }
+    .video-iframe{
+        width: 100%;
+    }
+    .list-logo h5{
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+
+    /* foorter */
+    .icon-footer {
+        width: 100%;
+    }
+    .contact-footer {
+        width:100%;
+    }
+    .contact-item {
+        padding: 0;
+    }
+    .contact-link{
+        font-size: 0.8rem;
+        padding-right:16px;
+    }
+    .coryright {
+        width: 100%;
+    }
+    .privacy {
+       display: none;
+    }
+    .coryright-content {
+       text-align: center;
+    }
+
+     /* css TIN TỨC */
+
+     /* background */
+     .back-img{
+        height:20vh;
+    }
+    .back-img img{
+        height:100%;
+    }
+    .text-title{
+     margin-top: 4rem;
+    }
+ }
+ @media only screen and (min-width:1024px) and (max-width:1204px) {
+    .logo{
+        width: 20%;
+    }
+    .menu-main{
+        width: 80%;
+        padding-top: 5px;
+        
+    }
+    .carousel-content .carouse-title{
+        font-size: 3rem;
+    }
+    .carousel-content{
+         top: 25%;
+         left: 30%;
+    }
+    .navbar{
+        top:15%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.8rem !important;
+        padding-left: 0rem !important;
+    }
+    .nav-item {
+        padding-left: 0rem !important;
+    }
+    .sec-col{
+        width: 100%;
+       }
+       .title-section4 p{
+           width: 350px;
+       }
+       .btn-section4{
+     
+           margin-left: 200px !important;
+       }
+       #video-viewport{
+        width: 100%;
+    }
+    .video-iframe{
+        width: 100%;
+    }
+    .list-logo h5{
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+
  }

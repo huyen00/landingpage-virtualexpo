@@ -1,6 +1,6 @@
 
   $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
+    $("#carousel-1").owlCarousel({
         loop:true,
         margin:10,
         nav:true,
@@ -14,13 +14,37 @@
                 items:3
             },
             1000:{
-                items:6
+                items:4
+            },
+            1204:{
+                items:5
             }
         }
     })
   })
 
-
+  $(document).ready(function(){
+    $(".carousel-1").owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+    autoplayTimeout:1000,
+        responsive:{
+            0:{
+                items:1
+            },
+            700:{
+                items:1
+            },
+            1000:{
+                items:3
+            },
+            1204:{
+                items:4
+            }
+        }
+    })
+  })
   $(document).ready(function(){
     $('.multiple-items').slick({
         infinite: true,

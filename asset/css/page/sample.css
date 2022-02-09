@@ -81,6 +81,13 @@ a{
 
 
 /* our gallery */
+.banner3{
+    padding-left:3rem;
+    padding-right:3rem;
+}
+.list-sample{
+    padding-top:3rem;
+}
 .caption-sample{
     height: 40px;
     background: yellow;
@@ -133,26 +140,7 @@ a{
     position: relative;
 }
 
-.gallery-layer a i{
-    position: absolute;
-    top:40%;
-    text-align: center;
-    right:40%;
-    font-size: 50px;
-    z-index: 10;
-}
-.gallery-layer{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(18,16,47,0.90) none repeat scroll 0 0;
-    z-index: 1;
-    opacity: 0;
-    transition: 0.4s;
-    
-}
+
 .hinh{
     width:25%;
 }
@@ -274,8 +262,14 @@ a{
     opacity: 1;
  }
 
- /* repomsive  */
- @media only screen and (max-width:739px){
+/* repomsive  */
+@media only screen and (max-width:739px){
+    #quaylai{
+        display: none;
+    }
+    h2{
+        font-size: 1.5rem !important;
+    }
     .logo{
         width: 35%;
     }
@@ -287,24 +281,78 @@ a{
     .navbar-toggler{
         justify-content: end;
     }
-    .back-img{
-        height:30vh;
-    }
-    .back-img img{
-        height:100%;
-    }
-    .text-title {
-        color: #fff !important;
-        
-        margin-top: 17%;
-        font-weight: 600;
-    }
+   .carousel-content .carouse-title{
+       font-size: 2rem;
 
+   }
+   /* background */
+   .back-img{
+       height:25vh;
+   }
+   .back-img img{
+       height:100%;
+   }
+   .text-title{
+    margin-top: 4rem;
+   }
+
+/* list sample */
+   .banner3{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.list-sample{
+    padding-top:0rem;
+}
+
+.image-item{
+    padding:5px;
+}
+.menu-img li{
+    list-style: none;
+    margin-left:0.5rem;
+}
+.menu-img-item{
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-img-item.active{
+    background-color: #EC9123;
+    border-radius:4px;
+}
+.img-content{
+    position: relative;
+}
+
+
+.hinh{
+    width:100%;
+    display: block;
+}
+.img-content:hover .gallery-layer{
+    opacity: 1;
+}
+
+.hidden{
+    opacity:0;
+    visibility: hidden;
+    display: none;
+}
+
+   /* foorter */
    .icon-footer {
        width: 100%;
    }
    .contact-footer {
        width:100%;
+   }
+   .contact-item {
+       padding: 0;
+   }
+   .contact-link{
+       font-size: 0.8rem;
+       padding-right:16px;
    }
    .coryright {
        width: 100%;
@@ -315,4 +363,91 @@ a{
    .coryright-content {
       text-align: center;
    }
+}
+@media only screen and (min-width:740px) and (max-width:1023px){
+   .logo{
+       width: 30%;
+   }
+   .menu-main{
+       width: 70%;
+       padding-top: 5px;
+       
+   }
+   .navbar-toggler{
+       justify-content: end;
+   }
+  .carousel-content .carouse-title{
+      font-size: 3rem;
+  }
+  .carousel-content{
+       top: 25%;
+       left: 30%;
+  }
+    /* background */
+    .back-img{
+        height:20vh;
+    }
+    .back-img img{
+        height:100%;
+    }
+    .text-title{
+     margin-top: 4rem;
+    }
+/* list-sample */
+    .hinh{
+        width:33.2%;
+        display: block;
+    }
+ 
+   /* foorter */
+   .icon-footer {
+       width: 100%;
+   }
+   .contact-footer {
+       width:100%;
+   }
+   .contact-item {
+       padding: 0;
+   }
+   .contact-link{
+       font-size: 0.8rem;
+       padding-right:16px;
+   }
+   .coryright {
+       width: 100%;
+   }
+   .privacy {
+      display: none;
+   }
+   .coryright-content {
+      text-align: center;
+   }
+}
+@media only screen and (min-width:1024px) and (max-width:1204px) {
+   .logo{
+       width: 20%;
+   }
+   .menu-main{
+       width: 80%;
+       padding-top: 5px;
+       
+   }
+   .carousel-content .carouse-title{
+       font-size: 3rem;
+   }
+   .carousel-content{
+        top: 25%;
+        left: 30%;
+   }
+   .navbar{
+       top:15%;
+   }
+   .navbar-expand-lg .navbar-nav .nav-link {
+       padding-right: 0.8rem !important;
+       padding-left: 0rem !important;
+   }
+   .nav-item {
+       padding-left: 0rem !important;
+   }
+   
 }

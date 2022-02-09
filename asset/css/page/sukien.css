@@ -59,7 +59,7 @@ a{
     background-color: #ffc107 ;
 }
 
-/* css tin tức  */
+/* css back */
 .back-img{
     position: relative;
 }
@@ -79,7 +79,38 @@ a{
     text-transform: uppercase;
 }
 
-
+/*  */
+.sec-2{
+    background-color: #ffff;
+    padding:2rem;
+}
+.content-sec2{
+    margin: 20px auto 0 auto;
+    width: 750px;
+    padding: 20px 35px 13px 35px;
+    background-color: #d9d9cc;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 20%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 20%);
+    padding:1.5rem;
+}
+.footer-event-left{
+    width: 35%;
+    font-weight: 700;
+}
+.footer-event{
+    margin-top:2rem;
+}
+.footer-event-right{
+    width: 65%;
+    font-weight: 700;
+}
+.footer-event-right span{
+    float:right;
+    padding-top:1rem;
+}
 
 /* footer */
 .footer-company {
@@ -187,3 +218,160 @@ a{
     visibility: visible;
     opacity: 1;
  }
+
+ /* repomsive  */
+@media only screen and (max-width:739px){
+    #quaylai{
+        display: none;
+    }
+    h2{
+        font-size: 1.5rem !important;
+    }
+    .logo{
+        width: 35%;
+    }
+    .menu-main{
+        width: 65%;
+        padding-top: 5px;
+        
+    }
+    .navbar-toggler{
+        justify-content: end;
+    }
+   .carousel-content .carouse-title{
+       font-size: 2rem;
+
+   }
+   /* background */
+   .back-img{
+       height:25vh;
+   }
+   .back-img img{
+       height:100%;
+   }
+   .text-title{
+    margin-top: 4rem;
+   }
+
+    /* sự kiện */
+    .content-sec2 {
+        width: auto;
+        padding: 0 rem!important;
+    }
+    .sec-2 {
+        padding: 0rem;
+    }
+   /* foorter */
+   .icon-footer {
+       width: 100%;
+   }
+   .contact-footer {
+       width:100%;
+   }
+   .contact-item {
+       padding: 0;
+   }
+   .contact-link{
+       font-size: 0.8rem;
+       padding-right:16px;
+   }
+   .coryright {
+       width: 100%;
+   }
+   .privacy {
+      display: none;
+   }
+   .coryright-content {
+      text-align: center;
+   }
+}
+@media only screen and (min-width:740px) and (max-width:1023px){
+   .logo{
+       width: 30%;
+   }
+   .menu-main{
+       width: 70%;
+       padding-top: 5px;
+       
+   }
+   .navbar-toggler{
+       justify-content: end;
+   }
+  .carousel-content .carouse-title{
+      font-size: 3rem;
+  }
+  .carousel-content{
+       top: 25%;
+       left: 30%;
+  }
+    /* background */
+    .back-img{
+        height:20vh;
+    }
+    .back-img img{
+        height:100%;
+    }
+    .text-title{
+     margin-top: 4rem;
+    }
+    
+  /* sự kiện */
+  .content-sec2 {
+    width: auto;
+    padding: 0 rem!important;
+}
+.sec-2 {
+    padding: 0rem;
+}
+   /* foorter */
+   .icon-footer {
+       width: 100%;
+   }
+   .contact-footer {
+       width:100%;
+   }
+   .contact-item {
+       padding: 0;
+   }
+   .contact-link{
+       font-size: 0.8rem;
+       padding-right:16px;
+   }
+   .coryright {
+       width: 100%;
+   }
+   .privacy {
+      display: none;
+   }
+   .coryright-content {
+      text-align: center;
+   }
+}
+@media only screen and (min-width:1024px) and (max-width:1204px) {
+   .logo{
+       width: 20%;
+   }
+   .menu-main{
+       width: 80%;
+       padding-top: 5px;
+       
+   }
+   .carousel-content .carouse-title{
+       font-size: 3rem;
+   }
+   .carousel-content{
+        top: 25%;
+        left: 30%;
+   }
+   .navbar{
+       top:15%;
+   }
+   .navbar-expand-lg .navbar-nav .nav-link {
+       padding-right: 0.8rem !important;
+       padding-left: 0rem !important;
+   }
+   .nav-item {
+       padding-left: 0rem !important;
+   }
+   
+}
