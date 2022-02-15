@@ -446,24 +446,46 @@ ul {
    .coryright-content {
       text-align: center;
    }
-   /* menu-top */
-   .inner-header .container{
-    padding-right: 0px !important;
+    /* menu-top */
+    .inner-header .container{
+        padding-right: 0px !important;
     padding-left: 0px !important;
     }
     .navbar-nav {
         padding-left:3rem !important;
         padding: 1rem 3rem;
     }
+    .navbar-nav .nav-link {
+        color: #fff !important;
+    }
 
     #collapsibleNavbar{
         width: 160%;
-        background-color: #e5dfd7ed;
+        background-color: black;
         position: absolute;
         z-index: 4;
         right:0;
-        top:90% !important;
+        top:95% !important;
     }
+    .menu-sub {
+        position: relative;
+        width: 220px;
+        border: 1px solid rgba(0,0,0,0.15);
+        z-index: 100000;
+        background-color: black;
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        top: 30%;
+        left:5%;
+    }
+    .sub-link{
+        color:#fff !important;
+    }
+    .item-sub:hover{
+        background-color: black ;
+    }
+    
 }
 @media only screen and (min-width:740px) and (max-width:1023px){
    .logo{
@@ -526,24 +548,46 @@ ul {
    .coryright-content {
       text-align: center;
    }
-   /* menu-top */
-   .inner-header .container{
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    }
-    .navbar-nav {
-        padding-left:3rem !important;
-        padding: 1rem 3rem;
-    }
-
-    #collapsibleNavbar{
-        width: 160%;
-        background-color: #e5dfd7ed;
-        position: absolute;
-        z-index: 4;
-        right:0;
-        top:90% !important;
-    }
+    /* menu-top */
+    .inner-header .container{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-right: 0 !important;
+        }
+        .navbar-nav {
+            padding-left: 9rem !important;
+            padding: 1rem 9rem;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        #collapsibleNavbar{
+            width: 160%;
+            background-color: black;
+            position: absolute;
+            z-index: 4;
+            right:0;
+            top:95% !important;
+        }
+        .menu-sub {
+            position: relative;
+            width: 220px;
+            border: 1px solid rgba(0,0,0,0.15);
+            z-index: 100000;
+            background-color: black;
+            font-size: 16px;
+            font-weight: 600;
+            display: block;
+            top: 30%;
+            left:5%;
+        }
+        .sub-link{
+            color:#fff !important;
+        }
+        .item-sub:hover{
+            background-color: black ;
+        }
+        
 }
 @media only screen and (min-width:1024px) and (max-width:1204px) {
    .logo{

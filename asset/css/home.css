@@ -34,6 +34,9 @@ a{
 .nav-item{
     padding-left:1rem;
 }
+.nav-item :hover{
+    color: #EC9123 !important;
+}
 .nav-link{
     text-transform: uppercase;
     font-weight: 600;
@@ -82,11 +85,9 @@ h1.carouse-title{
 .carousel-content{
     position: absolute;
     top:25%;
-   left: 41%;
-    
+    width: 100%;
 }
 .btn-carousel{
-    margin-left:40%;
     font-weight: 600;
 }
 
@@ -154,9 +155,6 @@ button.owl-next{
     width: 70% !important;
     height: 70% !important;
 }
-.section-4{
-  
-}
 .section-video{
     position: relative;
   
@@ -170,10 +168,7 @@ button.owl-next{
     margin: auto;
     font-weight: 500;
 }
-.btn-section4{
-  
-    margin-left: 470px !important;
-}
+
 .banner-5{
     padding:3rem;
 }
@@ -186,6 +181,9 @@ button.owl-next{
 }
 .item-5{
     padding-left:2rem;
+}
+.title-new:hover{
+    color:#EC9123 !important;
 }
 button.slick-next {
     width: 70px;
@@ -324,7 +322,7 @@ button.slick-prev {
  }
  .background-title{
     position: absolute;
-    background: rgba(18,16,47,0.60) none repeat scroll 0 0;
+    background: rgb(18 16 47 / 37%) none repeat scroll 0 0;
     
     top: 0;
     width: 100%;
@@ -337,6 +335,9 @@ button.slick-prev {
      margin-top:6%;
      text-transform: uppercase;
  }
+ .title-new :hover{
+    color:#EC9123 !important;
+}
 /* menu - sibar  */
 .menu-sibar{
     width: 50px;
@@ -447,23 +448,14 @@ ul {
     .content-slide{
         height: 100%;
     }
-    .carousel-content{
-        position: absolute;
-        top:30%;
-       left: 23%;
-        
-    }
+    
     .btn-carousel{
-        margin-left:30%;
         font-weight: 600;
     }
     .content-col2 h2{
         margin-top: 20px;
     }
-    .btn-section4{
-  
-        margin-left: 33% !important;
-    }
+    
     .sec-col{
         width: 100%;
     }
@@ -550,15 +542,37 @@ ul {
         padding-left:3rem !important;
         padding: 1rem 3rem;
     }
+    .navbar-nav .nav-link {
+        color: #fff !important;
+    }
     
     #collapsibleNavbar{
         width: 160%;
-        background-color: #e5dfd7ed;
+        background-color: black;
         position: absolute;
         z-index: 4;
         right:0;
-        top:90% !important;
+        top:95% !important;
     }
+    .menu-sub {
+        position: relative;
+        width: 220px;
+        border: 1px solid rgba(0,0,0,0.15);
+        z-index: 100000;
+        background-color: black;
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        top: 30%;
+        left:5%;
+    }
+    .sub-link{
+        color:#fff !important;
+    }
+    .item-sub:hover{
+        background-color: black ;
+    }
+    
  }
  @media only screen and (min-width:740px) and (max-width:1023px){
     .logo{
@@ -577,8 +591,8 @@ ul {
        font-size: 3rem;
    }
    .carousel-content{
-        top: 25%;
-        left: 30%;
+        /* top: 25%;
+        left: 30%; */
    }
    /* sec-2 */
    .section-2{
@@ -591,10 +605,7 @@ ul {
     .title-section4 p{
         width: 300px;
     }
-    .btn-section4{
   
-        margin-left: 100px !important;
-    }
     #video-viewport{
         width: 100%;
     }
@@ -630,8 +641,6 @@ ul {
        text-align: center;
     }
 
-     /* css TIN TỨC */
-
      /* background */
      .back-img{
         height:20vh;
@@ -653,15 +662,36 @@ ul {
         padding-left: 9rem !important;
         padding: 1rem 9rem;
     }
-
+    .navbar-nav .nav-link {
+        color: #fff !important;
+    }
     #collapsibleNavbar{
         width: 160%;
-        background-color: #e5dfd7ed;
+        background-color: black;
         position: absolute;
         z-index: 4;
         right:0;
-        top:90% !important;
+        top:95% !important;
     }
+    .menu-sub {
+        position: relative;
+        width: 220px;
+        border: 1px solid rgba(0,0,0,0.15);
+        z-index: 100000;
+        background-color: black;
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        top: 30%;
+        left:5%;
+    }
+    .sub-link{
+        color:#fff !important;
+    }
+    .item-sub:hover{
+        background-color: black ;
+    }
+    
  }
  @media only screen and (min-width:1024px) and (max-width:1204px) {
     .logo{
@@ -677,7 +707,6 @@ ul {
     }
     .carousel-content{
          top: 25%;
-         left: 30%;
     }
     .navbar{
         top:15%;
@@ -695,11 +724,7 @@ ul {
        .title-section4 p{
            width: 350px;
        }
-       .btn-section4{
-     
-           margin-left: 200px !important;
-       }
-       #video-viewport{
+    #video-viewport{
         width: 100%;
     }
     .video-iframe{
