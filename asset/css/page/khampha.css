@@ -1,5 +1,5 @@
 *{
-    color:black !important;
+   
     padding:0;
     margin:0;
 
@@ -9,6 +9,7 @@ li{
 }
 a{
     text-decoration: none !important;
+    color:black !important;
 }
 .container-fluid{
     padding-right:0 !important;
@@ -116,15 +117,19 @@ a{
     transition: 0.4s;
 }
 
+
 /* footer */
-.footer-company {
-    width: 100%;
-   
-    padding: 75px 0 7px 0;
-    margin: 0px;
-    background-color: #ebe1e1;
-    
-}
+.footer-company{
+    background: url(/asset/img/footer1.jpg) ;
+    background-position:center;
+    background-size:cover;
+    color: #fff !important;
+ }
+ .footer-background{
+    background: rgba(27,39,61,.95);
+    z-index: 999;
+    padding: 3rem;
+ }
 .icon-footer{
     width: 29.3333%;
 }
@@ -146,7 +151,7 @@ a{
     background-color: #EC9123;
    border-radius: 4px;
    display: flex;
-  
+  color:black;
 }
 .infor-icon-link:hover{
    border:1px solid #EC9123;
@@ -197,7 +202,6 @@ a{
 .item-privacy a{
     color:#cecde9 !important;
 }
-
 /* quay lại đau trang */
 .back-to-top {
     width: 50px;

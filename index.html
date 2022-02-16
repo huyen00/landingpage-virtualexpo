@@ -9,6 +9,11 @@
    <link rel="stylesheet" href="asset/css/owl.carousel.min.css" type="text/css">
    <link rel="stylesheet" href="asset/css/owl.theme.default.min.css" type="text/css">
 
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+
    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="asset/css/home.css">
     
@@ -19,7 +24,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <header id="header">
+    <!-- <header id="header">
         <div class="inner-header">
             <div class="container">
                 <div class="row">
@@ -30,6 +35,68 @@
                     </div>
                     <div class="menu-main ">
                         <nav class="navbar navbar-expand-lg justify-content-end ">
+                          
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                          
+                           
+                            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                              <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">TRANG CHỦ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Giới thiệu</a>
+                                    <ul class="menu-sub">
+                                        <li class="item-sub">
+                                            <a href="page/gioithieu.html" class="sub-link">Thông Tin Chung</a>
+                                        </li>
+                                     
+                                        <li class="item-sub">
+                                            <a href="page/sample.html" class="sub-link">Danh sách Gian Hàng</a>
+                                        </li>
+                                     
+                                        <li class="item-sub">
+                                            <a href="page/dangki.html" class="sub-link">Đăng Kí Tham Quan</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="page/khampha.html">Khám Phá 3D</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="page/sukien.html">Sự Kiện</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="page/tintuc.html">Tin Tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="page/dangki.html">Đăng kí Gian hàng</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="page/contact.html">Liên hệ</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <header id="header w-100" class="header navbar-fixed-top scrolled" style="position: absolute; width: 100%;">
+        <div class="inner-header inner-header-position  inner-header-position-fixed FadeInDown ">
+            <!-- <div class="container"> -->
+                <div class="row pl-5 pr-5">
+                    <div class="logo">
+                        <a href="" class="logo-link">
+                            <img src="asset/img/HolomiaExpo.png"  class="img-fluid logo-page  " alt="Logo Holomia">
+                        </a>
+                    </div>
+                    <div class="menu-main ">
+                        <nav class="navbar navbar-expand-lg justify-content-end navbar-fixed-top scrolled">
                             <!-- Toggler/collapsibe Button -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                                 <i class="fas fa-bars"></i>
@@ -77,10 +144,42 @@
                           </nav>
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
     </header>
-    <div class="content pt-2">
+    <section>
+        <div class="banner">
+            <div class="container">
+                <div class="content-banner">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="title-banner">Không Gian Ảo</h1>
+                        <h4 class="text-white">Công ty công nghệ Holomia</h4>
+                        <div class="pt-3">
+                            <p class="mt-2 text-white"><i class="fas fa-map-marker-alt pr-2 text-warning"></i>  102 Thái Thịnh Đống Đa, Hà Nội</p>
+                            <p class="mt-4 text-white"><i class="fas fa-phone-alt pr-2 text-warning"></i>  0333.9564773</p>
+                            <p class="mt-4 text-white"><i class="fas fa-envelope pr-2 text-warning"></i> holomia@gmail.com</p>
+                            <button class="btn btn-warning btn-thamgia pt-3">Tham Gia</button>
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-banner">
+                                <input type="text" class="form-control input-banner text-white" placeholder="Your Name..."/>
+                                <input type="email" class="form-control input-banner" placeholder="Your E-mail..."/>
+                                <input type="text" class="form-control input-banner" placeholder="Mobile Number..."/>
+                                <input type="text" class="form-control input-banner" placeholder="Address..."/>
+                                <input value="Registration Now" class="r input-submit" type="submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- <div class="content pt-2">
         <div class="container-fluid  content-slide">
             <div id="carouselExampleControls" class="carousel slide h-100" data-ride="carousel">
                 <div class="carousel-inner h-100">
@@ -122,7 +221,7 @@
                 </a>
               </div>
         </div>
-    </div>
+    </div> -->
     <div class="section-2 mt-5 mb-5">
         <div class="container">
             <div class="banner-2 ">
@@ -153,7 +252,7 @@
    <div class="section-3 pt-2">
        <div class="container-fluid">
            <div class="banner-3 p-5">
-               <h2 class="text-center title-section3">Gian Hàng Triển Lãm</h2>
+               <h2 class="text-center title-section3 text-white">Gian Hàng Triển Lãm</h2>
               <hr class="line  mx-auto">
                <div class="list-gianhang pt-3">
     
@@ -219,73 +318,13 @@
            
        </div> 
    </div>
-   <div class="section-5 pt-5">
-       <!-- <div class="container"> -->
-           <div class="banner-5 ">
-               <div class="title-5">
-                   <h2 class="text-center">TIN MỚI NHẤT</h2>
-                   <hr class="line mx-auto">
-               </div>
-               <div class="row  sec-5">
-                   <div class="owl-carousel carousel-1">
-                    <div class="item-5">
-                        <img src="../asset/img/16.jpg" class="img-fluid" alt="">
-                        <div class="content-5 pt-4">
-                            <h4 class="title-new"><a href="page/tintuc_New.html">Sự kiện ra mắt MissionX</a></h4>
-                            <span class="d-block"><i class="fas fa-eye"></i> 345</span>
-                            <span>Yêu cầu đặt ra về chất lượng nhân lực du lịch thời điểm này phải cao hơn, nhất là khi du lịch 
-                                chuyển dịch nhiều sang công nghệ số và đòi hỏi nhiều kỹ năng mới trong quá trình phục vụ khách.</span>
-                        </div>
-                    </div>   
-                    <div class="item-5">
-                        <img src="../asset/img/2.jpg" class="img-fluid" alt="">
-                        <div class="content-5 pt-4">
-                            <h4 class="title-new"><a href="page/tintuc_New.html">Thực Tế Ảo - Công Nghệ Kết Nối Tương Lai</a></h4>
-                            <span class="d-block"><i class="fas fa-eye"></i> 345</span>
-                            <span>Yêu cầu đặt ra về chất lượng nhân lực du lịch thời điểm này phải cao hơn, nhất là khi du lịch 
-                                chuyển dịch nhiều sang công nghệ số và đòi hỏi nhiều kỹ năng mới trong quá trình phục vụ khách.</span>
-                        </div>
-                    </div>   
-                    <div class="item-5">
-                        <img src="../asset/img/3.jpg" class="img-fluid" alt="">
-                        <div class="content-5 pt-4">
-                            <h4 class="title-new"><a href="page/tintuc_New.html">Sự Trải Nghiệm Của Thực Tế Ảo</a></h4>
-                            <span class="d-block"><i class="fas fa-eye"></i> 345</span>
-                            <span>Yêu cầu đặt ra về chất lượng nhân lực du lịch thời điểm này phải cao hơn, nhất là khi du lịch 
-                                chuyển dịch nhiều sang công nghệ số và đòi hỏi nhiều kỹ năng mới trong quá trình phục vụ khách.</span>
-                        </div>
-                    </div>   
-                    <div class="item-5">
-                        <img src="../asset/img/2.jpg" class="img-fluid" alt="">
-                        <div class="content-5 pt-4">
-                            <h4 class="title-new"><a href="page/tintuc_New.html">MissionX Hiện đã có Ở Thành Phố Đà Lạt</a></h4>
-                            <span class="d-block"><i class="fas fa-eye"></i> 345</span>
-                            <span>Yêu cầu đặt ra về chất lượng nhân lực du lịch thời điểm này phải cao hơn, nhất là khi du lịch 
-                                chuyển dịch nhiều sang công nghệ số và đòi hỏi nhiều kỹ năng mới trong quá trình phục vụ khách.</span>
-                        </div>
-                    </div>   
-                    <div class="item-5">
-                        <img src="../asset/img/16.jpg" class="img-fluid" alt="">
-                        <div class="content-5 pt-4">
-                            <h4 class="title-new"><a href="page/tintuc_New.html">MissionX đã có ở Đâu</a></h4>
-                            <span class="d-block"><i class="fas fa-eye"></i> 345</span>
-                            <span>Yêu cầu đặt ra về chất lượng nhân lực du lịch thời điểm này phải cao hơn, nhất là khi du lịch 
-                                chuyển dịch nhiều sang công nghệ số và đòi hỏi nhiều kỹ năng mới trong quá trình phục vụ khách.</span>
-                        </div>
-                    </div>       
-                   </div>
-               </div>
-           </div>
-      
-   </div>
+   
     <hr >
     <div class="section-6 pt-5">
         <div class="container">
             <div class="banner-6">
                 <h2 class="text-center">ĐƠN VỊ TỔ CHỨC</h2>
                 <hr class="line mx-auto">
-                
-              
                 <div class="row">
                     <img src="asset/img/manager_event/actor.png" class="img-fluid mx-auto img-section6" style="width:300px" alt="">
  
@@ -294,135 +333,205 @@
             </div>
         </div>
     </div>
-    <hr >
-    <div class="section-7 pt-5">
-        <div class="container">
-            <div class="banner-6">
-                <h2 class="text-center">ĐƠN VỊ PHỐI HỢP</h2>
-                <hr class="line mx-auto">
-                <div class="row pt-5">
-                   <div class="col-md-3 list-logo">
-                       <img src="asset/img/partner/1.jpg" class="img-fluid " alt="">
-                       <h5 class="pt-3 text-center">Roche</h5>
-                   </div>
-                   <div class="col-md-3 list-logo">
-                        <img src="asset/img/partner/2.jpg" class="img-fluid " alt="">
-                        <h5 class="pt-3 text-center">Abbott</h5>
-                    </div>
-                    <div class="col-md-3 list-logo">
-                        <img src="asset/img/partner/3.jpg" class="img-fluid " alt="">
-                        <h5 class="pt-3 text-center">BTH</h5>
-                    </div>
-                    <div class="col-md-3 list-logo">
-                        <img src="asset/img/partner/4.jpg" class="img-fluid " alt="">
-                        <h5 class="pt-3 text-center">MSD</h5>
+   
+    <div class="section-7">
+        <div class="section-logo">
+            <div class="container">
+                <div class="banner-6">
+                    <h2 class="text-center">ĐƠN VỊ PHỐI HỢP</h2>
+                    <hr class="line mx-auto">
+                    <div class="list-logo">
+                        <div class="item-logo">
+                            <a href="">
+                                <img src="asset/img/partner/1.jpg" class="img-fluid logo-inner" alt="">
+                            </a>                         
+                        </div>
+                        <div class="item-logo">
+                            <a href="">
+                                <img src="asset/img/partner/2.jpg" class="img-fluid logo-inner" alt="">
+                            </a>                           
+                        </div>
+                        <div class="item-logo">
+                            <a href="">
+                                <img src="asset/img/partner/3.jpg" class="img-fluid logo-inner" alt="">
+                            </a>                           
+                        </div>
+                        <div class="item-logo">
+                            <a href="">
+                                <img src="asset/img/partner/4.jpg" class="img-fluid logo-inner" alt="">
+                            </a>                          
+                        </div>
+                        <div class="item-logo">
+                            <a href="">
+                                <img src="asset/img/partner/5.jpg" class="img-fluid logo-inner" alt="">
+                            </a>                          
+                        </div>
+                        <div class="item-logo">
+                            <a href="">
+                                <img src="asset/img/partner/6.jpg" class="img-fluid logo-inner" alt="">
+                            </a>                          
+                        </div>
+                        <div class="item-logo">
+                            <a href="">
+                                <img src="asset/img/partner/7.jpg" class="img-fluid logo-inner" alt="">
+                            </a>                          
+                        </div>
+                        <div class="item-logo">
+                            <a href="">
+                                <img src="asset/img/partner/8.jpg" class="img-fluid logo-inner" alt="">
+                            </a>                          
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="row pt-5">
-                    <div class="col-md-3 list-logo">
-                        <img src="asset/img/partner/5.jpg" class="img-fluid " alt="">
-                        <h5 class="pt-3 text-center">Pfizer</h5>
-                    </div>
-                    <div class="col-md-3 list-logo">
-                         <img src="asset/img/partner/6.jpg" class="img-fluid " alt="">
-                         <h5 class="pt-3 text-center">ShuyBuya</h5>
-                     </div>
-                     <div class="col-md-3 list-logo">
-                         <img src="asset/img/partner/7.jpg" class="img-fluid " alt="">
-                         <h5 class="pt-3 text-center">CellSeed</h5>
-                     </div>
-                     <div class="col-md-3 list-logo">
-                         <img src="asset/img/partner/8.jpg" class="img-fluid " alt="">
-                         <h5 class="pt-3 text-center">Phương Đông</h5>
-                     </div>
-                 </div>
             </div>
         </div>
+        
          <!-- quay lai dau trang -->
          <div id="quaylai" class="back-to-top"><i class="fas fa-chevron-up"></i></div>
     </div>
-
-    <div class="footer-company mt-5 ">
-        <div class="container">
-            <div class="">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="item-footer">
-                            <img src="../asset/img/HolomiaExpo.png" style=" width: 90%;" alt="">
-                            <p><strong>Công Ty Công Nghệ Holomia</strong></p>
-                            <p class="mt-2"><i class="fas fa-map-marker-alt pr-2"></i>  102 Thái Thịnh Đống Đa, Hà Nội</p>
-                            <p class="mt-4"><i class="fas fa-phone-alt pr-2"></i>  0333.9564773</p>
-                            <p class="mt-4"><i class="fas fa-envelope pr-2"></i> holomia@gmail.com</p>
+    <div class="section-5 pt-5">
+        <div class="banner-5 ">
+            <div class="title-5">
+                <h2 class="text-center">TIN MỚI NHẤT</h2>
+                <hr class="line mx-auto">
+            </div>
+            <div class="row  sec-5">
+                <div class="owl-carousel carousel-1">
+                    <div class="item-5">
+                        <img src="../asset/img/16.jpg" class="img-fluid carousel-img" alt="">
+                        <div class="content-5 pt-4">
+                            <h4 class="title-new"><a href="page/tintuc_New.html">Sự kiện ra mắt MissionX</a></h4>
+                            <span class="d-block"><i class="fas fa-eye"></i> 345</span>
+                            <span>Yêu cầu đặt ra về chất lượng nhân lực du lịch thời điểm này phải cao hơn, nhất là khi du lịch 
+                                chuyển dịch nhiều sang công nghệ số và đòi hỏi nhiều kỹ năng mới trong quá trình phục vụ khách.</span>
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="item-footer">
-                          <h3>Company</h3>
-                            <p class="mt-2">Giới thiệu</p>
-                            <p class="mt-4">Sự kiện</p>
-                            <p class="mt-4">Triển Lãm 3D</p>
+                    </div>   
+                    <div class="item-5">
+                        <img src="../asset/img/2.jpg" class="img-fluid carousel-img" alt="">
+                        <div class="content-5 pt-4">
+                            <h4 class="title-new"><a href="page/tintuc_New.html">Thực Tế Ảo - Kết Nối Tương Lai</a></h4>
+                            <span class="d-block"><i class="fas fa-eye"></i> 345</span>
+                            <span>Yêu cầu đặt ra về chất lượng nhân lực du lịch thời điểm này phải cao hơn, nhất là khi du lịch 
+                                chuyển dịch nhiều sang công nghệ số và đòi hỏi nhiều kỹ năng mới trong quá trình phục vụ khách.</span>
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="item-footer">
-                          <h3>Fearures</h3>
-                            <p class="mt-2">Mobile Event App</p>
-                            <p class="mt-4">Virtual Environment</p>
-                            <p class="mt-4">Event Gamification</p>
-                            <p class="mt-4">Chat and Networking</p>
+                    </div>   
+                    <div class="item-5">
+                        <img src="../asset/img/3.jpg" class="img-fluid carousel-img" alt="">
+                        <div class="content-5 pt-4">
+                            <h4 class="title-new"><a href="page/tintuc_New.html">Sự Trải Nghiệm Của Thực Tế Ảo</a></h4>
+                            <span class="d-block"><i class="fas fa-eye"></i> 345</span>
+                            <span>Yêu cầu đặt ra về chất lượng nhân lực du lịch thời điểm này phải cao hơn, nhất là khi du lịch 
+                                chuyển dịch nhiều sang công nghệ số và đòi hỏi nhiều kỹ năng mới trong quá trình phục vụ khách.</span>
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="item-footer">
-                          <h3>Education</h3>
-                            <p class="mt-2">Virtual University Job Fair</p>
-                            <p class="mt-4">Virtual Open Day</p>
-                            <p class="mt-4">Virtual Education Fair</p>
-                            <p class="mt-4">Virtual Graduation</p>
-                            <p class="mt-4">Ceremony</p>
-                            <p class="mt-4">Virtual Networking Fair</p>
+                    </div>   
+                    <div class="item-5">
+                        <img src="../asset/img/2.jpg" class="img-fluid carousel-img" alt="">
+                        <div class="content-5 pt-4">
+                            <h4 class="title-new"><a href="page/tintuc_New.html">MissionX Hiện đã có Ở Thành Phố Đà Lạt</a></h4>
+                            <span class="d-block"><i class="fas fa-eye"></i> 345</span>
+                            <span>Yêu cầu đặt ra về chất lượng nhân lực du lịch thời điểm này phải cao hơn, nhất là khi du lịch 
+                                chuyển dịch nhiều sang công nghệ số và đòi hỏi nhiều kỹ năng mới trong quá trình phục vụ khách.</span>
                         </div>
-                    </div>
+                    </div>   
+                    <div class="item-5">
+                        <img src="../asset/img/16.jpg" class="img-fluid carousel-img" alt="">
+                        <div class="content-5 pt-4">
+                            <h4 class="title-new"><a href="page/tintuc_New.html">MissionX đã có ở Đâu</a></h4>
+                            <span class="d-block"><i class="fas fa-eye"></i> 345</span>
+                            <span>Yêu cầu đặt ra về chất lượng nhân lực du lịch thời điểm này phải cao hơn, nhất là khi du lịch 
+                                chuyển dịch nhiều sang công nghệ số và đòi hỏi nhiều kỹ năng mới trong quá trình phục vụ khách.</span>
+                        </div>
+                    </div>       
                 </div>
-               <hr>
-               <div class="row">
-                   <div class="icon-footer">
-                    <div class="icon">
-                        <ul class="infor-icon">
-                            <li class="infor-icon-item">
-                                <a href="#" class="infor-icon-link"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li class="infor-icon-item ">
-                                <a href="#" class="infor-icon-link"><i class="fab fa-twitter"></i></a>
-                            </li>
-                            <li class="infor-icon-item ">
-                                <a href="#" class="infor-icon-link"><i class="fab fa-google"></i></a>
-                            </li>
-                            <li class="infor-icon-item ">
-                                <a href="#" class="infor-icon-link"><i class="fab fa-pinterest"></i></a>
-                            </li>
-                            <li class="infor-icon-item ">
-                                <a href="#" class="infor-icon-link"><i class="fab fa-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                   </div>
-                   <div class="contact-footer">
-                        <ul class="list-contact justify-content-end">
-                            <li class="contact-item">
-                                <a href="page/dangki.html" class="contact-link">Đăng Kí Tham Quan</a>
-                            </li>
-                            <li  class="contact-item">
-                                <a href="page/dkSample.html" class="contact-link">Đăng Kí Gian Hàng</a>
-                            </li>
-                            <li  class="contact-item">
-                                <a href="page/contact.html" class="contact-link">Liên Hệ</a>
-                            </li>
-                        </ul>
-                   </div>
-               </div>
             </div>
         </div>
+    </div>
+<!-- footer -->
+    <div class="footer-company mt-5 ">
+        <div class="footer-background">
+            <div class="container">
+                <div class="">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="item-footer">
+                                <img src="../asset/img/HolomiaExpo.png" style=" width: 90%;" alt="">
+                                <p class="text-white"><strong>Công Ty Công Nghệ Holomia</strong></p>
+                                <p class="mt-2"><i class="fas fa-map-marker-alt pr-2 text-warning"></i>  102 Thái Thịnh Đống Đa, Hà Nội</p>
+                                <p class="mt-4"><i class="fas fa-phone-alt pr-2 text-warning"></i>  0333.9564773</p>
+                                <p class="mt-4"><i class="fas fa-envelope pr-2 text-warning"></i> holomia@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item-footer">
+                              <h3>Company</h3>
+                                <p class="mt-2">Giới thiệu</p>
+                                <p class="mt-4">Sự kiện</p>
+                                <p class="mt-4">Triển Lãm 3D</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item-footer">
+                              <h3>Fearures</h3>
+                                <p class="mt-2">Mobile Event App</p>
+                                <p class="mt-4">Virtual Environment</p>
+                                <p class="mt-4">Event Gamification</p>
+                                <p class="mt-4">Chat and Networking</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item-footer">
+                              <h3>Education</h3>
+                                <p class="mt-2">Virtual University Job Fair</p>
+                                <p class="mt-4">Virtual Open Day</p>
+                                <p class="mt-4">Virtual Education Fair</p>
+                                <p class="mt-4">Virtual Graduation</p>
+                                <p class="mt-4">Ceremony</p>
+                                <p class="mt-4">Virtual Networking Fair</p>
+                            </div>
+                        </div>
+                    </div>
+                   <hr>
+                   <div class="row">
+                       <div class="icon-footer">
+                        <div class="icon">
+                            <ul class="infor-icon">
+                                <li class="infor-icon-item">
+                                    <a href="#" class="infor-icon-link"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="infor-icon-item ">
+                                    <a href="#" class="infor-icon-link"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="infor-icon-item ">
+                                    <a href="#" class="infor-icon-link"><i class="fab fa-google"></i></a>
+                                </li>
+                                <li class="infor-icon-item ">
+                                    <a href="#" class="infor-icon-link"><i class="fab fa-pinterest"></i></a>
+                                </li>
+                                <li class="infor-icon-item ">
+                                    <a href="#" class="infor-icon-link"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                       </div>
+                       <div class="contact-footer">
+                            <ul class="list-contact justify-content-end">
+                                <li class="contact-item">
+                                    <a href="page/dangki.html" class="contact-link">Đăng Kí Tham Quan</a>
+                                </li>
+                                <li  class="contact-item">
+                                    <a href="page/dkSample.html" class="contact-link">Đăng Kí Gian Hàng</a>
+                                </li>
+                                <li  class="contact-item">
+                                    <a href="page/contact.html" class="contact-link">Liên Hệ</a>
+                                </li>
+                            </ul>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        
         
     </div>
     <div class="footer-end ">
@@ -479,5 +588,6 @@
    <script src="asset/js/owl.carousel.min.js"></script>
    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="asset/js/home.js"></script>
+    <script src="asset/js/main.js"></script>
   </body>
 </html>

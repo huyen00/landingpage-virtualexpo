@@ -1,5 +1,5 @@
 *{
-    color:black !important;
+   
     padding:0;
     margin:0;
 }
@@ -8,6 +8,7 @@ li{
 }
 a{
     text-decoration: none !important;
+    color:black !important;
 }
 .container-fluid{
     padding-right:0 !important;
@@ -84,7 +85,7 @@ a{
 
 /* sự kiện */
 
-.section-2{
+/* .section-2{
     position: relative;
    background-image:  linear-gradient(170deg, #FFFFFF 0%, rgba(156, 255, 255, 0.65) 100%);
    background-color: transparent;
@@ -121,17 +122,71 @@ a{
 }
 .item-content span{
     float:left;
-}
+} */
 
-/* footer */
-.footer-company {
-    width: 100%;
-   
-    padding: 75px 0 7px 0;
-    margin: 0px;
-    background-color: #ebe1e1;
-    
+.section-event{
+    background: url(/asset/img/banner-sk.png) ;
+    background-position:center;
+    background-size:cover;
+    color: #fff !important;
+    padding: 5rem;
 }
+.banner-event{
+    /* background: #554bb9; */
+   
+}
+.event-time{
+    width: 25%;
+    padding: 3rem 0;
+}
+.tab-menu{
+   
+}
+.nav-tabs{
+    background: #554bb9;
+    text-align: right;
+    display: inline-block;
+    margin-bottom: 2.6rem;
+   width: 100%;
+   box-shadow: 0 13px 35px rgb(0 0 0 / 10%) !important;
+}
+.event-description{
+    width: 75%;
+}
+.item-tabs{
+    padding: 5px;
+    margin: 0 0.4rem;
+    float: none;
+}
+.tab-pane{
+    background: rgba(255,255,255,.85);
+    margin-bottom: 5px;
+    border-radius: 16px;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(50 51 51 / 10%);
+    -moz-box-shadow: 0 8px 6px -6px rgba(50,51,51,.1);
+    box-shadow: 0 8px 6px -6px rgb(50 51 51 / 10%);
+}
+.avt-event{
+    border-radius: 50%;
+}
+.item-event{
+    padding:1rem;
+}
+.text-black{
+    color:black;
+}
+/* footer */
+.footer-company{
+    background: url(/asset/img/footer1.jpg) ;
+    background-position:center;
+    background-size:cover;
+    color: #fff !important;
+ }
+ .footer-background{
+    background: rgba(27,39,61,.95);
+    z-index: 999;
+    padding: 3rem;
+ }
 .icon-footer{
     width: 29.3333%;
 }
@@ -153,12 +208,13 @@ a{
     background-color: #EC9123;
    border-radius: 4px;
    display: flex;
-  
+  color:black;
 }
 .infor-icon-link:hover{
    border:1px solid #EC9123;
     background:#8a8484 none repeat scroll 0 0;
 }
+
 
 .list-contact{
     display: flex;
@@ -174,6 +230,7 @@ a{
 .contact-link:hover{
     color: #fff !important;
 }
+
 
 .footer-end{
     background-color: #0c0a24;

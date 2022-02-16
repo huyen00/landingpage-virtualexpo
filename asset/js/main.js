@@ -59,3 +59,49 @@ $(document).ready(function(){
        }
    })
  })
+
+
+// xử lý scroll menu top
+//  $(function () {
+//   $(document).scroll(function () {
+//     var $nav = $(".menu-onscrool");
+//     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+//   });
+// });
+
+$(document).ready(function() {
+
+
+
+  /*=========================================================================
+
+   ===  MENU SCROLL FIXED
+
+   ========================================================================== */
+
+  var s = $(".inner-header-position");
+
+  var pos = s.position();
+
+
+
+  $(window).on('scroll', function () {
+
+      var windowpos = $(window).scrollTop();
+
+      if (windowpos > pos.top) {
+
+          s.addClass("menu-onscroll");
+          // $(".inner-header-position-fixed").addClass("fadeInDown")
+          $(".logo-page").removeClass("img-logo")
+
+      } else {
+
+          s.removeClass("menu-onscroll");
+          // $(".inner-header-position-fixed").removeClass("fadeInDown")
+          $(".logo-page").addClass("img-logo")
+
+      }
+
+  });
+})

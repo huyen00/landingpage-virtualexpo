@@ -1,14 +1,13 @@
 *{
-    color:black !important;
+    /* color:black !important; */
     padding:0;
     margin:0;
 
 }
-li{
-    list-style: none;
-}
+
 a{
     text-decoration: none !important;
+    color:black !important;
 }
 .container-fluid{
     padding-right:0 !important;
@@ -23,86 +22,153 @@ a{
     background: #fff;
     background-size: cover;
 }
-
-.logo{
-    width:10%;
-
-}
-.menu-main{
-    width: 90%;
+li{
+    list-style: none;
 }
 .nav-item{
-    padding-left:1rem;
-}
-.nav-item :hover{
-    color: #EC9123 !important;
+    padding-right:1rem;
 }
 .nav-link{
+    color:#fff !important;
     text-transform: uppercase;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: Special Elite; 
 }
-.menu-sub{
+.nav-link:hover{
+    color: #EC9123 !important;
+}
+.logo{
+    z-index: 20;
+}
+.inner-header-position{
+    position: fixed;
+    z-index: 9;
+    margin-top: 0rem;
+    width: 100%;
+}
+.menu-main{
+    margin-top: 3rem !important;
+    justify-content: end;
+    margin-left: auto;
+    z-index: 20;
+}
+.img-logo{
+    -webkit-animation: 1s hieuungtitle forwards;
+}
+@-webkit-keyframes hieuungtitle{
+    from{
+        transform: translateX(0%);
+     }
+     to{
+        transform: translateX(30%);
+     }
+}
+.menu-sub {
     position: absolute;
     width: 220px;
     border: 1px solid rgba(0,0,0,0.15);
     z-index: 100000;
-  background-color: #fff;
+ padding:1rem 1rem;
     font-size: 16px;
     font-weight: 600;
     display: none;
-    top:50px;
+ 
 }
 .nav-item:hover .menu-sub{
     display: block;
 }
 .item-sub{
-    padding:10px;
+    padding: 0.8rem 1rem ;
+    
+}
+.sub-link{
+    color:#fff !important;
 }
 .item-sub:hover{
-    background-color: #ffc107 ;
+    background-color: #EC9123 ;
 }
-
-
-
-.content{
-    position: relative;  
-   
-}
-.content-slide{
-    height: 50vh;
-}
-#carouselExampleControls{
-   position: relative;
  
-}
-
-
-h1.carouse-title{
-    color: #ffc107 !important;
-    font-size: 4rem;
+ @keyframes hieuungmenu {
+    0% {
+       opacity: 0;
+       transform: translateY(0px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(-30%);
+    }
+ }
+.banner{
+    background: url(/asset/img/banner1.jpg) top center no-repeat;
+    background-position:center;
+    background-size:cover;
    
 }
-.carousel-content{
-    position: absolute;
-    top:25%;
+.content-banner{
+    padding: 23rem 0 20rem;
+
+}
+.title-banner{
+    font-size: 5rem;
+    color: #EC9123 !important;
+    font-family: 'Merriweather', serif;
+}
+
+.menu-onscroll{
+    background: rgba(27,39,61,.95);
+    position: fixed;
+    top: 0;
     width: 100%;
+    z-index: 999;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation: 1s hieuungmenu forwards;
 }
-.btn-carousel{
-    font-weight: 600;
+
+
+
+.inner-header .menu-onscroll {
+    animation-duration: .6s;
+    animation-timing-function: linear;
 }
+.btn-thamgia{
+    padding:1rem 4rem !important;
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+}
+
+.form-banner{
+    background: url(/asset/img/banner2.jpg) ;
+    background-position:center;
+    background-size:cover;
+    padding: 2rem;
+}
+.input-banner{
+    margin-bottom: 1.5rem !important;
+    display: block !important;
+    width: 100%;
+    height: 60px !important;
+    background: rgba(255,255,255,.4) !important;
+    color: #fff !important;
+}
+.input-submit{
+    display: block;
+    width: 100%;
+    height: 60px !important;
+    background: #efa506;
+    margin-top: 2rem;
+    color: #554bb9;
+}
+
+/* section 2 */
 
 .section-2{
     position: relative;
     padding-top: 3rem;
 }
 .section-3{
-    background-color: #ffc107 ;
+    background: rgba(27,39,61,.95);
 }
-.owl-prev{
-
-}
-
-
 button.owl-prev{
     font-size: 18px !important;
     margin-top: -20px !important;
@@ -175,12 +241,28 @@ button.owl-next{
 .sec-5{
     padding: 3rem !important;
 }
+
 .item-5 img{
     width:100%;
     height: 300px;
 }
 .item-5{
     padding-left:2rem;
+    margin-bottom: 2.6rem;
+    background: #fff;
+    padding: 1.6rem 1.6rem 2.6rem;
+    border-radius: 16px;
+    position: relative;
+    box-shadow: 0 1px 15px 1px rgb(52 40 104 / 10%);
+    height:100%;
+}
+.carousel-img{
+    transform: scale(0.9); 
+    transition: 0.4s;
+}
+.item-5:hover .carousel-img{
+    transform: scale(1); 
+    transition: 0.4s;
 }
 .title-new:hover{
     color:#EC9123 !important;
@@ -207,15 +289,51 @@ button.slick-prev {
  }
 
 
-/* footer */
- .footer-company {
-    width: 100%;
-   
-    padding: 75px 0 7px 0;
-    margin: 0px;
-    background-color: #ebe1e1;
-    
+/* ddon vi phoi hop */
+.section-7{
+    background: url(/asset/img/banner-logo.jpg) ;
+    background-position:center;
+    background-size:cover;
+  
+    color: #fff;
 }
+.section-logo{
+    background: rgba(27,39,61,.95);
+    z-index: 999;
+    padding: 4rem;
+}
+ .item-logo{
+    margin: 0 .5% 0.6rem !important;
+    padding: 1.6rem !important;
+    border-radius: 16px;
+    width: 23% !important;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 2rem !important;
+}
+.item-logo:hover .logo-inner{
+    -webkit-animation: 1s hieuunglogo forwards;
+}
+@-webkit-keyframes hieuunglogo{
+    from{
+        transform: translateY(0%);
+     }
+     to{
+        transform: translateY(-20%);
+     }
+}
+/* footer */
+.footer-company{
+    background: url(/asset/img/footer1.jpg) ;
+    background-position:center;
+    background-size:cover;
+    color: #fff;
+ }
+ .footer-background{
+    background: rgba(27,39,61,.95);
+    z-index: 999;
+    padding: 3rem;
+ }
 .icon-footer{
     width: 29.3333%;
 }
@@ -237,7 +355,7 @@ button.slick-prev {
     background-color: #EC9123;
    border-radius: 4px;
    display: flex;
-  
+  color:black;
 }
 .infor-icon-link:hover{
    border:1px solid #EC9123;
@@ -346,8 +464,10 @@ button.slick-prev {
     right: 0;
     list-style: none;
     z-index: 999;
-    background: #EC9123;
-    opacity: 0.8;
+    /* background: #EC9123; */
+  background: #2D427B;
+  
+    opacity: 1;
     border-right: 0;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -408,10 +528,22 @@ button.slick-prev {
     transform: translate(-100%,0);
     -webkit-transform: translate(-100%,0);
 }
+.link-sibar{
+    color:black;
+}
 ul {
     margin-top: 0;
     margin-bottom: 0rem !important;
 }
+
+
+
+
+
+
+
+
+
 
 
  /* repomsive  */
@@ -493,9 +625,13 @@ ul {
     .list-logo{
         padding-top: 1rem;
     }
+    
    .list-logo h5{
        font-weight: 800;
        font-size: 1.2rem;
+   }
+   .section-7{
+
    }
     /* foorter */
     .icon-footer {
@@ -736,3 +872,9 @@ ul {
     }
 
  }
+
+
+
+
+
+ 
