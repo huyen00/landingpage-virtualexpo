@@ -105,3 +105,12 @@ $(document).ready(function() {
 
   });
 })
+
+
+//xử lý khi active 
+// $(document).ready(function(){
+//   $('.item-tab').click(function(event){
+//     $('.tab-pane.active').removeClass('active');
+//     $(this).addClass('active');
+//   });
+// });
