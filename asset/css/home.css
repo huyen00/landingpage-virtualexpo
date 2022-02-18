@@ -476,6 +476,7 @@ button.slick-prev {
  .title-new :hover{
     color:#EC9123 !important;
 }
+
 /* menu - sibar  */
 .menu-sibar{
     width: 50px;
@@ -894,6 +895,11 @@ ul {
  }
 
 
+ /* reponsive menu */
+
+@media only screen and (max-width:768px)  {
+    
+}
 
 
 

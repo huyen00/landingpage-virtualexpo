@@ -1,12 +1,13 @@
+
+
+/* menu top */
 *{
-  
+    /* color:black !important; */
     padding:0;
     margin:0;
 
 }
-li{
-    list-style: none;
-}
+
 a{
     text-decoration: none !important;
     color:black !important;
@@ -24,47 +25,93 @@ a{
     background: #fff;
     background-size: cover;
 }
-
-.logo{
-    width:10%;
-
-}
-.menu-main{
-    width: 90%;
+li{
+    list-style: none;
 }
 .nav-item{
-    padding-left:1rem;
+    padding-right:1rem;
 }
 .nav-link{
+    color:#fff !important;
     text-transform: uppercase;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: Special Elite; 
 }
-
-.nav-item :hover{
+.nav-link:hover{
     color: #EC9123 !important;
 }
-.menu-sub{
+.logo{
+    z-index: 20;
+}
+.inner-header-position{
+    position: fixed;
+    z-index: 9;
+    margin-top: 0rem;
+    width: 100%;
+}
+.menu-main{
+    margin-top: 3rem !important;
+    justify-content: end;
+    margin-left: auto;
+    z-index: 20;
+}
+.img-logo{
+    -webkit-animation: 1s hieuungtitle forwards;
+}
+@-webkit-keyframes hieuungtitle{
+    from{
+        transform: translateX(0%);
+     }
+     to{
+        transform: translateX(30%);
+     }
+}
+.menu-sub {
     position: absolute;
     width: 220px;
     border: 1px solid rgba(0,0,0,0.15);
     z-index: 100000;
-  background-color: #fff;
+ padding:1rem 1rem;
     font-size: 16px;
     font-weight: 600;
     display: none;
-    top:50px;
+ 
 }
 .nav-item:hover .menu-sub{
     display: block;
 }
 .item-sub{
-    padding:10px;
+    padding: 0.8rem 1rem ;
+    
+}
+.sub-link{
+    color:#fff !important;
 }
 .item-sub:hover{
-    background-color: #ffc107 ;
+    background-color: #EC9123 ;
 }
-
-/* css back */
+ 
+ @keyframes hieuungmenu {
+    0% {
+       opacity: 0;
+       transform: translateY(0px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(-30%);
+    }
+ }
+ .menu-onscroll{
+    background: rgba(27,39,61,.95);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation: 1s hieuungmenu forwards;
+}
+/* css background  */
 .back-img{
     position: relative;
 }
@@ -80,9 +127,10 @@ a{
 .text-title{
     color:#fff !important;
     top: 50%;
-    margin-top:6%;
+    margin-top:10%;
     text-transform: uppercase;
 }
+
 
 /* tin tức mới */
 .sec-2{
