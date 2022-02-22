@@ -139,7 +139,9 @@ li{
 .check{
     color: red !important;
 }
-
+.col-md-6{
+    padding-left:0 !important;
+}
 
 
 
