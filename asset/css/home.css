@@ -25,6 +25,9 @@ a{
 li{
     list-style: none;
 }
+.title-page{
+    text-transform: uppercase;
+}
 .nav-item{
     padding-right:1rem;
 }
@@ -107,7 +110,7 @@ li{
    
 }
 .content-banner{
-    padding: 23rem 0 20rem;
+    padding: 15rem 0 13rem;
 
 }
 .title-banner{
@@ -126,9 +129,6 @@ li{
     animation-name: fadeInDown;
     -webkit-animation: 1s hieuungmenu forwards;
 }
-
-
-
 .inner-header .menu-onscroll {
     animation-duration: .6s;
     animation-timing-function: linear;
@@ -167,6 +167,10 @@ li{
 .section-2{
     position: relative;
     padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.banner-3{
+    padding:5rem 2rem;
 }
 .section-3{
     background: rgba(27,39,61,.95);
