@@ -67,6 +67,7 @@ li{
     position: absolute;
     width: 220px;
     border: 1px solid rgba(0,0,0,0.15);
+    background-color: rgba(27,39,61,.95);
     z-index: 100000;
  padding:1rem 1rem;
     font-size: 16px;
@@ -557,341 +558,6 @@ ul {
     margin-bottom: 0rem !important;
 }
 
-
-
-
-
-
-
-
-
-
-
- /* repomsive  */
- /* @media only screen and (max-width:739px){
-     
-    .menu-sibar{
-        display: none;
-    }
-    #quaylai{
-        display: none;
-    }
-     h2{
-         font-size: 1.5rem !important;
-     }
-     .logo{
-         width: 35%;
-     }
-     .menu-main{
-         width: 65%;
-         padding-top: 5px;
-         
-     }
-     .navbar-toggler{
-         justify-content: end;
-     }
-    .carousel-content .carouse-title{
-        font-size: 2rem;
-
-    }
-
-    .content{
-        height: 35vh;
-    }
-    .content-slide{
-        height: 100%;
-    }
-    
-    .btn-carousel{
-        font-weight: 600;
-    }
-    .content-col2 h2{
-        margin-top: 20px;
-    }
-    
-    .sec-col{
-        width: 100%;
-    }
-    .title-section4 p{
-        width: 300px;
-    }
-    #video-viewport{
-        width: 100%;
-    }
-    .video-iframe{
-        width: 100%;
-    }
-  .ytp-cued-thumbnail-overlay-image {
-        width: 360 !important;
-        height: 250 !important;
-    }
-
-    
-    h4{
-        font-size: 1.2rem !important;
-    }
-    .banner-5{
-        padding: 1rem;
-    }
-    .sec-5{
-        padding: 2rem !important;
-    }
-    button.owl-next {
-        right: -45px !important;
-    }
-   
-    .banner-6{
-        padding:1.8rem;
-    }
-    .list-logo{
-        padding-top: 1rem;
-    }
-    
-   .list-logo h5{
-       font-weight: 800;
-       font-size: 1.2rem;
-   }
-   .section-7{
-
-   }
-   
-    .icon-footer {
-        width: 100%;
-    }
-    .contact-footer {
-        width:100%;
-    }
-    .contact-item {
-        padding: 0;
-    }
-    .contact-link{
-        font-size: 0.8rem;
-        padding-right:16px;
-    }
-    .coryright {
-        width: 100%;
-    }
-    .privacy {
-       display: none;
-    }
-    .coryright-content {
-       text-align: center;
-    }
-
-  
-   .back-img{
-    height:25vh;
-    }
-    .back-img img{
-        height:100%;
-    }
-    .text-title{
-    margin-top: 4rem;
-    }
-
-    
-    .inner-header .container{
-        padding-right: 0px !important;
-    padding-left: 0px !important;
-    }
-    .navbar-nav {
-        padding-left:3rem !important;
-        padding: 1rem 3rem;
-    }
-    .navbar-nav .nav-link {
-        color: #fff !important;
-    }
-    
-    #collapsibleNavbar{
-        width: 160%;
-        background-color: black;
-        position: absolute;
-        z-index: 4;
-        right:0;
-        top:95% !important;
-    }
-    .menu-sub {
-        position: relative;
-        width: 220px;
-        border: 1px solid rgba(0,0,0,0.15);
-        z-index: 100000;
-        background-color: black;
-        font-size: 16px;
-        font-weight: 600;
-        display: block;
-        top: 30%;
-        left:5%;
-    }
-    .sub-link{
-        color:#fff !important;
-    }
-    .item-sub:hover{
-        background-color: black ;
-    }
-    
- }
- @media only screen and (min-width:740px) and (max-width:1023px){
-    .logo{
-        width: 30%;
-    }
-    .menu-main{
-        width: 70%;
-        padding-top: 5px;
-        
-    }
-    .navbar-toggler{
-        justify-content: end;
-        margin-top:1.4rem;
-    }
-   .carousel-content .carouse-title{
-       font-size: 3rem;
-   }
-  
-   .section-2{
-       padding-top: 0 !important;
-   }
-
-   .sec-col{
-     width: 100%;
-    }
-    .title-section4 p{
-        width: 300px;
-    }
-  
-    #video-viewport{
-        width: 100%;
-    }
-    .video-iframe{
-        width: 100%;
-    }
-    .list-logo h5{
-        font-weight: 800;
-        font-size: 1.2rem;
-    }
-
-    
-    .icon-footer {
-        width: 100%;
-    }
-    .contact-footer {
-        width:100%;
-    }
-    .contact-item {
-        padding: 0;
-    }
-    .contact-link{
-        font-size: 0.8rem;
-        padding-right:16px;
-    }
-    .coryright {
-        width: 100%;
-    }
-    .privacy {
-       display: none;
-    }
-    .coryright-content {
-       text-align: center;
-    }
-
-    
-     .back-img{
-        height:20vh;
-    }
-    .back-img img{
-        height:100%;
-    }
-    .text-title{
-     margin-top: 4rem;
-    }
-
-   
-   .inner-header .container{
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    margin-right: 0 !important;
-    }
-    .navbar-nav {
-        padding-left: 9rem !important;
-        padding: 1rem 9rem;
-    }
-    .navbar-nav .nav-link {
-        color: #fff !important;
-    }
-    #collapsibleNavbar{
-        width: 160%;
-        background-color: black;
-        position: absolute;
-        z-index: 4;
-        right:0;
-        top:95% !important;
-    }
-    .menu-sub {
-        position: relative;
-        width: 220px;
-        border: 1px solid rgba(0,0,0,0.15);
-        z-index: 100000;
-        background-color: black;
-        font-size: 16px;
-        font-weight: 600;
-        display: block;
-        top: 30%;
-        left:5%;
-    }
-    .sub-link{
-        color:#fff !important;
-    }
-    .item-sub:hover{
-        background-color: black ;
-    }
-    
- }
- @media only screen and (min-width:1024px) and (max-width:1204px) {
-    .logo{
-        width: 20%;
-    }
-    .menu-main{
-        width: 80%;
-        padding-top: 5px;
-        
-    }
-    .carousel-content .carouse-title{
-        font-size: 3rem;
-    }
-    .carousel-content{
-         top: 25%;
-    }
-    .navbar{
-        top:15%;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 0.8rem !important;
-        padding-left: 0rem !important;
-    }
-    .nav-item {
-        padding-left: 0rem !important;
-    }
-    .sec-col{
-        width: 100%;
-       }
-       .title-section4 p{
-           width: 350px;
-       }
-    #video-viewport{
-        width: 100%;
-    }
-    .video-iframe{
-        width: 100%;
-    }
-    .list-logo h5{
-        font-weight: 800;
-        font-size: 1.2rem;
-    }
-
- } */
-
-
- /* reponsive menu */
-
 /* reponsive */
 @media only screen and (max-width:739px)  {
     .menu-sibar{
@@ -909,7 +575,9 @@ ul {
        width: 60%;
       
     }
-   
+    .navbar-toggler{
+        color: #fff;
+    }
      .navbar{
          margin-top:7%;
          justify-content: end !important;
@@ -928,7 +596,7 @@ ul {
             color: #fff !important;
         }
         #collapsibleNavbar{
-            width: 180%;
+            width: 190% !important;
             background-color: black;
             position: absolute;
             z-index: 4;
@@ -960,7 +628,13 @@ ul {
         .title-banner{
             font-size: 4rem;
         }
-        
+        .form-banner{
+            margin-top:2rem;
+        }
+        /* ddown vi phoi hop */
+        .item-logo{
+            width: 100% !important;
+        }
         
          /* foorter */
          .list-footer{
@@ -992,6 +666,9 @@ ul {
 
 @media only screen and (max-width:768px)  {
     /* menu-top */
+    .logo{
+        width: 40%;
+    }
     .menu-main {
         width: 60%;
 
@@ -999,8 +676,12 @@ ul {
     .menu-main{
         margin-top: 0rem !important
     }
+    .navbar-toggler{
+        color: #fff;
+    }
     .navbar{
-        margin-top:10%;
+        margin-top: 10%;
+        justify-content: end !important;
     }
     .text-title{
         display: none;
@@ -1046,6 +727,32 @@ ul {
         .item-sub:hover{
             background-color: black ;
         }
+        .img-logo{
+            padding-left:3rem
+        }
+        .content-banner{
+            padding: 10rem 0 15rem;
+        
+        }
+        .title-banner{
+            font-size: 4rem;
+        }
+        .form-banner{
+            margin-top:2rem;
+        }
+        /* tham quan trieern lam ao 3d */
+        #video-viewport{
+            width: 100%;
+        }
+        .video-iframe{
+            width: 100%;
+        }
+        /* ddown vi phoi hop */
+        .item-logo{
+            width: 100% !important;
+            text-align: center;
+        }
+
    
     /* footer */
     .list-footer{
@@ -1093,6 +800,14 @@ ul {
         width: 60%;
         padding-top: 3rem;
     }
+    .navbar-toggler{
+        color: #fff;
+        margin-top: 1rem;
+    }
+    .navbar{
+       
+        justify-content: end !important;
+    }
     .menu-main{
         margin-top: 0rem !important
     }
@@ -1140,6 +855,21 @@ ul {
         .item-sub:hover{
             background-color: black ;
         }
+        .content-banner{
+            padding: 15rem 0 18rem;
+        
+        }
+        .title-banner{
+            font-size: 4rem;
+        }
+        /* tham quan trieern lam ao 3d */
+        .sec-col{
+            width: 100% !important;
+        }
+         /* ddown vi phoi hop */
+         .item-logo{
+           width: 48% !important;
+        }
    
     /* footer */
 
@@ -1147,7 +877,10 @@ ul {
         margin-top:2rem;
     }
     .contact-link{
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+    .contact-item {
+        padding: 10px;
     }
 }
 @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -1167,6 +900,10 @@ ul {
     .list-footer{
         width: 24%;
     }
+      /* ddown vi phoi hop */
+      .item-logo{
+        width: 48% !important;
+     }
    
 }
 @media only screen and (min-width:1200px) and (max-width:1500px)  {

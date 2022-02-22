@@ -6,7 +6,6 @@
     padding:0;
     margin:0;
 }
-
 a{
     text-decoration: none !important;
     color:black !important;
@@ -69,6 +68,7 @@ li{
     position: absolute;
     width: 220px;
     border: 1px solid rgba(0,0,0,0.15);
+    background-color: rgba(27,39,61,.95);
     z-index: 100000;
  padding:1rem 1rem;
     font-size: 16px;
@@ -129,7 +129,6 @@ li{
     margin-top:10%;
     text-transform: uppercase;
 }
-
 /* form đăng kí  */
 
 .form-dangki{
@@ -155,8 +154,6 @@ li{
     background-position: center;
     background-size: cover;
 }
-
-
 /* footer */
 .footer-company{
     background: url(/asset/img/footer1.jpg) ;
@@ -359,6 +356,9 @@ ul {
        width: 60%;
       
     }
+    .navbar-toggler{
+        color:#fff;
+    }
      .navbar{
          margin-top:7%;
      }
@@ -436,6 +436,9 @@ ul {
     }
     .menu-main{
         margin-top: 0rem !important
+    }
+    .navbar-toggler{
+        color:#fff;
     }
     .navbar{
         margin-top:10%;
@@ -536,9 +539,11 @@ ul {
     .menu-main {
         width: 60%;
         padding-top: 3rem;
-    }
-    .menu-main{
         margin-top: 0rem !important
+    }
+    
+    .navbar-toggler{
+        color:#fff;
     }
     .text-title{
         display: none;
@@ -592,12 +597,17 @@ ul {
         margin-top:3rem;
     }
     /* footer */
-
     .contact-footer{
         margin-top:2rem;
     }
+    .list-contact{
+        margin-top:2rem;
+    }
     .contact-link{
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+    .contact-item {
+        padding: 10px;
     }
 }
 @media only screen and (min-width:992px) and (max-width:1199px) {

@@ -1,13 +1,9 @@
 
-
 /* menu top */
 *{
-    /* color:black !important; */
     padding:0;
     margin:0;
-
 }
-
 a{
     text-decoration: none !important;
     color:black !important;
@@ -71,18 +67,16 @@ li{
     width: 220px;
     border: 1px solid rgba(0,0,0,0.15);
     z-index: 100000;
- padding:1rem 1rem;
+    padding:1rem 1rem;
     font-size: 16px;
     font-weight: 600;
     display: none;
- 
 }
 .nav-item:hover .menu-sub{
     display: block;
 }
 .item-sub{
     padding: 0.8rem 1rem ;
-    
 }
 .sub-link{
     color:#fff !important;
@@ -90,7 +84,6 @@ li{
 .item-sub:hover{
     background-color: #EC9123 ;
 }
- 
  @keyframes hieuungmenu {
     0% {
        opacity: 0;
@@ -118,7 +111,6 @@ li{
 .background-title{
    position: absolute;
    background: rgb(18 16 47 / 37%) none repeat scroll 0 0;
-   
    top: 0;
    width: 100%;
    left: 0;
@@ -130,8 +122,6 @@ li{
     margin-top:10%;
     text-transform: uppercase;
 }
-
-
 /* tin tức mới */
 .sec-2{
     padding:3rem;
@@ -151,7 +141,6 @@ li{
 .title-new :hover{
     color: #EC9123 !important;
 }
-
 
 /* footer */
 .footer-company{
@@ -192,8 +181,6 @@ li{
    border:1px solid #EC9123;
     background:#8a8484 none repeat scroll 0 0;
 }
-
-
 .list-contact{
     display: flex;
 }
@@ -208,8 +195,6 @@ li{
 .contact-link:hover{
     color: #fff !important;
 }
-
-
 .footer-end{
     background-color: #0c0a24;
     padding:20px;
@@ -224,7 +209,6 @@ li{
     float: right;
     margin-right: 1rem;
     color:#cecde9 !important;
-
 }
 .links-privacy{
     float: right;
@@ -232,7 +216,6 @@ li{
 }
 .item-privacy{
     margin-right: 25px;
-   
 }
 .item-privacy a{
     color:#cecde9 !important;
@@ -288,7 +271,6 @@ li{
     position: relative;
     z-index: 1;
     background: #f7f7f7;;
-    /* background: #EC9123; */
     opacity: 0.7;
     border-right: 1px solid #e1e1e1;
 }
@@ -335,218 +317,41 @@ ul {
     margin-top: 0;
     margin-bottom: 0rem !important;
 }
-
 /* repomsive  */
-@media only screen and (max-width:739px){
+@media only screen and (max-width:739px)  {
     .menu-sibar{
         display: none;
     }
     #quaylai{
         display: none;
     }
-    h2{
-        font-size: 1.5rem !important;
-    }
-    .logo{
-        width: 35%;
+     /* menu-top */
+     .logo{
+        width: 40%;
     }
     .menu-main{
-        width: 65%;
-        padding-top: 5px;
-        
+       width: 60%;
     }
     .navbar-toggler{
-        justify-content: end;
+        color:#fff;
     }
-   .carousel-content .carouse-title{
-       font-size: 2rem;
-
-   }
-   /* background */
-   .back-img{
-       height:25vh;
-   }
-   .back-img img{
-       height:100%;
-   }
-   .text-title{
-    margin-top: 4rem;
-   }
-
-/* Tin tức mới */
-  .col-left{
-      width: 100%;
-  }
-  .col-right{
-    width: 100%;
-    margin-top:2rem;
-}
-.item{
-    margin-top: 2rem;
-}
-.item-img img{
-    width: 100%;
-
-}
-.item-content{
-    padding-left:1rem;
-}
-.item-content p{
-    margin-bottom: 0rem;
-}
-   /* foorter */
-   .icon-footer {
-       width: 100%;
-   }
-   .contact-footer {
-       width:100%;
-   }
-   .contact-item {
-       padding: 0;
-   }
-   .contact-link{
-       font-size: 0.8rem;
-       padding-right:16px;
-   }
-   .coryright {
-       width: 100%;
-   }
-   .privacy {
-      display: none;
-   }
-   .coryright-content {
-      text-align: center;
-   }
-
-   /* menu-top */
-   .inner-header .container{
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    }
-    .navbar-nav {
-        padding-left:3rem !important;
-        padding: 1rem 3rem;
-    }
-
-    #collapsibleNavbar{
-        width: 160%;
-        background-color: #e5dfd7ed;
-        position: absolute;
-        z-index: 4;
-        right:0;
-        top:90% !important;
-    }
-    .menu-sub {
-        position: relative;
-        width: 220px;
-        border: 1px solid rgba(0,0,0,0.15);
-        z-index: 100000;
-        background-color: black;
-        font-size: 16px;
-        font-weight: 600;
-        display: block;
-        top: 30%;
-        left:5%;
-    }
-    .sub-link{
-        color:#fff !important;
-    }
-    .item-sub:hover{
-        background-color: black ;
-    }
-    
-}
-@media only screen and (min-width:740px) and (max-width:1023px){
-   .logo{
-       width: 30%;
-   }
-   .menu-main{
-       width: 70%;
-       padding-top: 5px;
-       
-   }
-   .navbar-toggler{
-       justify-content: end;
-       margin-top:1.4rem;
-   }
-  .carousel-content .carouse-title{
-      font-size: 3rem;
-  }
-  .carousel-content{
-       top: 25%;
-       left: 30%;
-  }
-    /* background */
-    .back-img{
-        height:20vh;
-    }
-    .back-img img{
-        height:100%;
-    }
-    .text-title{
-     margin-top: 4rem;
-    }
-
-    /* tin tức mới */
-    .col-left{
-        width: 55%;
-    }
-    .col-right{
-      width: 45%;
-      padding-left:2rem;
-  }
-  .item{
-      margin-top: 2rem;
-  }
-    .item-img{
-        width: 32%;
-    }
-    .item-content{
-        width: 62%;
-        padding-left:1.2rem;
-    }
-    .item-content p{
-        margin-bottom: 0rem;
-    }
-   /* foorter */
-   .icon-footer {
-       width: 100%;
-   }
-   .contact-footer {
-       width:100%;
-   }
-   .contact-item {
-       padding: 0;
-   }
-   .contact-link{
-       font-size: 0.8rem;
-       padding-right:16px;
-   }
-   .coryright {
-       width: 100%;
-   }
-   .privacy {
-      display: none;
-   }
-   .coryright-content {
-      text-align: center;
-   }
-   
-    /* menu-top */
-    .inner-header .container{
+     .navbar{
+         margin-top:7%;
+     }
+     .inner-header .container{
         padding-right: 0px !important;
         padding-left: 0px !important;
         margin-right: 0 !important;
         }
         .navbar-nav {
-            padding-left: 9rem !important;
-            padding: 1rem 9rem;
+            padding-left: 7rem !important;
+            padding: 1rem 2rem;
         }
         .navbar-nav .nav-link {
             color: #fff !important;
         }
         #collapsibleNavbar{
-            width: 160%;
+            width: 180%;
             background-color: black;
             position: absolute;
             z-index: 4;
@@ -571,77 +376,347 @@ ul {
         .item-sub:hover{
             background-color: black ;
         }
-        
+        /* Tin tức mới */
+        .col-left{
+            width: 100%;
+        }
+        .col-right{
+        width: 100%;
+        margin-top:2rem;
+        }
+        .item{
+        margin-top: 2rem;
+        }
+        .item-img img{
+        width: 100%;
+
+        }
+        .item-content{
+        padding-left:1rem;
+        }
+        .item-content p{
+        margin-bottom: 0rem;
+        }
+         /* foorter */
+         .list-footer{
+            width: 100%;
+        }
+        .icon-footer {
+            width: 100%;
+        }
+        .contact-footer {
+            width:100%;
+        }
+        .contact-item {
+            padding: 0;
+        }
+        .contact-link{
+            font-size: 0.8rem !important;
+            padding-right:16px;
+        }
+        .coryright {
+            width: 100%;
+        }
+        .privacy {
+        display: none;
+        }
+        .coryright-content {
+        text-align: center;
+        }
+ }
+
+@media only screen and (max-width:768px)  {
+    /* menu-top */
+    .menu-main {
+        width: 60%;
+    }
+    .menu-main{
+        margin-top: 0rem !important
+    }
+    .navbar{
+        margin-top:10%;
+    }
+    .text-title{
+        display: none;
+    }
+    .navbar-toggler{
+        color:#fff;
+    }
+    .nav-link{
+        font-size: 1rem;
+    }
+    .inner-header .container{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-right: 0 !important;
+        }
+        .navbar-nav {
+            padding-left: 7rem !important;
+            padding: 1rem 2rem;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        #collapsibleNavbar{
+            width: 180%;
+            background-color: black;
+            position: absolute;
+            z-index: 4;
+            right:0;
+            top:95% !important;
+        }
+        .menu-sub {
+            position: relative;
+            width: 220px;
+            border: 1px solid rgba(0,0,0,0.15);
+            z-index: 100000;
+            background-color: black;
+            font-size: 16px;
+            font-weight: 600;
+            display: block;
+            top: 30%;
+            left:5%;
+        }
+        .sub-link{
+            color:#fff !important;
+        }
+        .item-sub:hover{
+            background-color: black ;
+        }
+        /* Tin tức mới */
+        .col-left{
+            width: 100%;
+        }
+        .col-right{
+        width: 100%;
+        margin-top:2rem;
+        }
+        .item{
+        margin-top: 2rem;
+        }
+        .item-img img{
+        width: 100%;
+
+        }
+        .item-content{
+        padding-left:1rem;
+        }
+        .item-content p{
+        margin-bottom: 0rem;
+        }
+   
+        /* footer */
+        .list-footer{
+            width: 100%;
+        }
+        .contact-footer{
+            margin-top:2rem;
+        }
+        .contact-link{
+            font-size: 1.1rem;
+        }
+        /* foorter */
+        .col-md-3{
+            width: 50% !important;
+        }
+        .icon-footer {
+            width: 100%;
+        }
+        .contact-footer {
+            width:100%;
+        }
+        .contact-item {
+            padding: 0;
+        }
+        .contact-link{
+            font-size: 0.8rem !important;
+            padding-right:16px;
+        }
+        .coryright {
+            width: 100%;
+        }
+        .privacy {
+        display: none;
+        }
+        .coryright-content {
+        text-align: center;
+        }
+}
+@media only screen and (min-width:769px) and (max-width:991px) {
+        /* menu-top */
+        .logo{
+            width: 40%;
+        }
+        .menu-main {
+            width: 60%;
+            padding-top: 3rem;
+        }
+        .menu-main{
+            margin-top: 0rem !important
+        }
+        .text-title{
+            display: none;
+        }
+        .navbar-toggler{
+            color:#fff;
+        }
+        .nav-link{
+            font-size: 1rem;
+        }
+    .inner-header .container{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-right: 0 !important;
+        }
+        .navbar-nav {
+            padding-left: 7rem !important;
+            padding: 1rem 2rem;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        #collapsibleNavbar{
+            width: 180%;
+            background-color: black;
+            position: absolute;
+            z-index: 4;
+            right:0;
+            top:95% !important;
+        }
+        .menu-sub {
+            position: relative;
+            width: 220px;
+            border: 1px solid rgba(0,0,0,0.15);
+            z-index: 100000;
+            background-color: black;
+            font-size: 16px;
+            font-weight: 600;
+            display: block;
+            top: 30%;
+            left:5%;
+        }
+        .sub-link{
+            color:#fff !important;
+        }
+        .item-sub:hover{
+            background-color: black ;
+        }
+         /* tin tức mới */
+        .col-left{
+            width: 55%;
+        }
+        .col-right{
+        width: 45%;
+        padding-left:2rem;
+        }
+        .item{
+            margin-top: 2rem;
+        }
+        .item-img{
+            width: 32%;
+        }
+        .item-content{
+            width: 62%;
+            padding-left:1.2rem;
+        }
+        .item-content p{
+            margin-bottom: 0rem;
+        }
+        /* footer */
+        .contact-footer{
+            margin-top:2rem;
+        }
+        .list-contact{
+            margin-top:2rem;
+        }
+        .contact-link{
+            font-size: 1rem;
+        }
+        .contact-item {
+            padding: 10px;
+        }
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+    }
+  
+    .nav-link{
+        font-size: 0.8rem !important;
+        padding: 0.5rem 1rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+    .list-footer{
+        width: 24%;
+    }
+    .col-right {
+        padding-left: 1rem;
+    }
+    .item-content {
+        padding-left: 1rem;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1500px)  {
+    
+    .link-contact-none{
+        display: block;
+    }
+    .nav-item{
+        padding-right:0.5rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0.5rem !important;
+    }
+  
+    .nav-item{
+        padding-right:0rem;
+    }
+    .nav-link{
+        color:#fff !important;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-family: Special Elite; 
+    }
+    .nav-link:hover{
+        color: #EC9123 !important;
+    }
+    .logo{
+        z-index: 20;
+    }
+    .inner-header-position{
+        position: fixed;
+        z-index: 9;
+        margin-top: 0rem;
+        width: 100%;
+    }
+    .menu-main{
+        margin-top: 3rem ;
+        justify-content: end;
+        margin-left: auto;
+        z-index: 20;
+    }
+    .col-right {
+        padding-left: 1rem;
+    }
+    .item-content {
+        padding-left: 1rem;
+    }
+   
 }
 
-@media only screen and (min-width:1024px) and (max-width:1204px) {
-   .logo{
-       width: 20%;
-   }
-   .menu-main{
-       width: 80%;
-       padding-top: 5px;
-       
-   }
-   .carousel-content .carouse-title{
-       font-size: 3rem;
-   }
-   .carousel-content{
-        top: 25%;
-        left: 30%;
-   }
-   .navbar{
-       top:15%;
-   }
-   .navbar-expand-lg .navbar-nav .nav-link {
-       padding-right: 0.8rem !important;
-       padding-left: 0rem !important;
-   }
-   .nav-item {
-       padding-left: 0rem !important;
-   }
-    /* tin tức mới */
-    .col-left{
-        width: 55%;
-    }
-    .col-right{
-    width: 45%;
-    padding-left:2rem;
-    }
-    .item{
-    margin-top: 2rem;
+@media only screen and (min-width:1501px) and (max-width:2300px)  {
+    .col-right {
+        padding-left: 1rem !important;
     }
     .item-img{
-        width: 32%;
+        padding-right:1rem;
     }
-    .item-content{
-        width: 62%;
-        padding-left:1.2rem;
-    }
-    .item-content p{
-        margin-bottom: 0rem;
-    }
-}
-@media only screen and (min-width:1204px) and (max-width:2204px) {
-     /* tin tức mới */
-   .col-left{
-    width: 55%;
-    }
-    .col-right{
-    width: 45%;
-    padding-left:2rem;
-    }
-    .item{
-    margin-top: 2rem;
-    }
-    .item-img{
-        width: 32%;
-    }
-    .item-content{
-        width: 62%;
-        padding-left:1.2rem;
-    }
-    .item-content p{
-        margin-bottom: 0rem;
+  
+    .item-content {
+        padding-left: 1rem !important;
     }
 }
